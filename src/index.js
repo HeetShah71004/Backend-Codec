@@ -20,7 +20,7 @@ const app = express();
 // CORS Setup
 const allowedOrigins = [
   process.env.FRONTEND_URL,
-  "https://frontend-codec.vercel.app",
+  "https://codec-two.vercel.app",
   /\.vercel\.app$/, // Allow all Vercel preview URLs
 ];
 
